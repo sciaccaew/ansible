@@ -1,1 +1,2 @@
----
+- name: resturn remote hostname (fqdn)
+  command: hostname -f
