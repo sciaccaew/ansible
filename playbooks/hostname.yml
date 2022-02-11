@@ -1,4 +1,4 @@
 - name: Get remote hostname
   hosts: all
-  task:
-          command: hostname -f
+  tasks:
+    command: hostname -f
