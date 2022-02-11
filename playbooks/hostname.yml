@@ -1,3 +1,4 @@
-- name: resturn remote hostname (fqdn)
-  host: victim
+- name: Return hostname 
+  hosts: all
   command: hostname -f
+  ignore_errors: yes
