@@ -1,4 +1,6 @@
-- name: Return hostname 
-  hosts: all
+- hosts: all
+#remote_user: root
+
+tasks:
+- name: hostname -f
   command: hostname -f
-  ignore_errors: yes
