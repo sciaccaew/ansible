@@ -1,2 +1,3 @@
 - name: resturn remote hostname (fqdn)
+  host: victim
   command: hostname -f
