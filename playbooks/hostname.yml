@@ -1,6 +1,4 @@
-hosts: all
-#remote_user: root
-
-tasks:
-- name: hostname -f
-  command: hostname -f
+- name: Get remote hostname
+  host: all
+  task:
+          command: hostname -f
