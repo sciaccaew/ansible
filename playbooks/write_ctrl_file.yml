@@ -3,4 +3,4 @@
   tasks:
   - name: Write control file
     shell: |
-    echo 'Ansible was here' >> /tmp/ans_ctrl_file.txt
+      echo 'Ansible was here' >> /tmp/ans_ctrl_file.txt
