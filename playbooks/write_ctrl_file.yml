@@ -1,0 +1,5 @@
+- hosts: all
+
+  tasks:
+  - name: Write control file
+    command: echo "Ansible was here" >> /tmp/ans_ctrl_file.txt
